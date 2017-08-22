@@ -1,4 +1,4 @@
-package Creational.singleton;
+package Creational.Singleton;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
