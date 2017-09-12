@@ -15,6 +15,8 @@ public class LunchOrderDemo {
     System.out.println(lunchOrder.getCondiments());
     System.out.println(lunchOrder.getDressing());
     System.out.println(lunchOrder.getMeat());
+
+    // notice that the builder can use a builder without all the constructor parameters
   }
 
 }
