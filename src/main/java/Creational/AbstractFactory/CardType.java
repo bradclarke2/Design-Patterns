@@ -1,7 +1,5 @@
 package Creational.AbstractFactory;
 
 public enum CardType {
-
-  GOLD,
-  PLATINUM;
+	GOLD, PLATINUM;
 }
