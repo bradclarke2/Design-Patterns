@@ -2,13 +2,13 @@ package Creational.Factory;
 
 public class WebsiteFactory {
 
-  public static Website getWebsite(String siteType){
+  public static Website getWebsite(WebsiteType siteType){
     switch(siteType){
-      case "blog" :{
+      case BLOG: {
         return new Blog();
       }
 
-      case "shop" : {
+      case SHOP: {
         return new Shop();
       }
 
