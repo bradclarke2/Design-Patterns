@@ -15,7 +15,6 @@ public class AmexFactory extends CreditCardFactory {
 			default:
 				break;
 		}
-		
 		return null;
 	}
 
